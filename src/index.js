@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import {BrowserRouter} from "react-router-dom";
-import { App, Signin,Sidebar,Maincontainer,Slack } from "./components";
+import { BrowserRouter } from "react-router-dom";
+import { App, Signin, Sidebar, Maincontainer, Slack } from "./components";
+import UserProvider from "./provider/UserProvider";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-
+  <UserProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </UserProvider>,
   document.getElementById("root")
 );
 

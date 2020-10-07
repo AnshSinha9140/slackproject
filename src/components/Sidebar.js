@@ -6,7 +6,7 @@ import React, { Component } from 'react'
             <div id="sidebar">
                <div className="user-profile">
                  <div>
-                     <img/>
+                     <img alt="pic"/>
                  </div>
                  <div>
                      Ronald

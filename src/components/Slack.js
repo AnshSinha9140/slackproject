@@ -1,15 +1,14 @@
-import React, { Component } from 'react'
-import {Sidebar,Maincontainer} from "./"
+import React, { Component } from "react";
+import { Sidebar, Maincontainer } from "./";
 
 class Slack extends Component {
-    render() {
-        return (
-            <div>
-                <Sidebar/>
-                <Maincontainer/>
-                
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <Sidebar />
+        <Maincontainer />
+      </div>
+    );
+  }
 }
-export default Slack
+export default Slack;
